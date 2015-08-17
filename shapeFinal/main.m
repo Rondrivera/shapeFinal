@@ -29,28 +29,12 @@ int main(int argc, const char * argv[]) {
         [sphere setRadius:7];
         [sphere setCircumference:3.14];
         
-//        Square *measurement = [[Square alloc]init];
-//        [measurement ]
-        
-        //measurement.heightInMeters = "5";
-//        measurement.widthInMeters = "5";
-        
-//        Circle *diameter = [[Circle alloc]init];
-//        diameter.radius = "7";
-//        diameter.circumference = "3.14";
-        
         
         NSLog(@"%i",[feature areaOfShape]);
          NSLog(@"%i",[attribute areaOfShape]);
          NSLog(@"%i",[rubix areaOfShape]);
          NSLog(@"%i",[sphere areaOfCircle]);
     }
-//    -(float)areaOfShape = [[Shape heightInMeters]widthInMeters];
-//        
-//        NSLog(@"The area of the shape is %f", areaOfShape);
-//        
-//    }
-////    -(float)areaOfSquare = [[Square heightInMeters]widthInMeters];
     
     return 0;
 }
